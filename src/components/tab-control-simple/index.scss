@@ -1,0 +1,25 @@
+.tab-control {
+  width: 800px;
+  border: 1px solid #2a90f3;
+  border-radius: 10px;
+  padding: 20px;
+
+  &-header {
+    display: flex;
+    height: 30px;
+
+    &__item {
+      margin: 0 20px;
+      padding-bottom: 10px;
+      cursor: pointer;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:hover, &_active {
+        border-bottom: 4px solid #2a90f3;
+      }
+    }
+  }
+}
